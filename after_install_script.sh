@@ -1,3 +1,3 @@
 #!bin/bash
-sudo amazon-linux-extras install epel
+curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 yum -y install nodejs npm
