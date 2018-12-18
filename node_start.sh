@@ -1,3 +1,3 @@
 #!bin/bash
-cd /home/nodejs/node-todo
+cd /usr/share/nginx/html/nodejs
 npm start
