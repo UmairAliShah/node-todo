@@ -7,3 +7,6 @@ hooks:
   BeforeInstall:
     - location : after_install_script.sh
       runas: root
+  ApplicationStart:
+    - location : node_start.sh
+      runas: root
