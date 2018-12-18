@@ -1,3 +1,3 @@
 #!bin/bash
-yum install epel-release
+sudo amazon-linux-extras install epel
 yum -y install nodejs npm
