@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /usr/share/nginx/html/nodejs
-  - source: /mongodb-org-4.0.repo
+  - source: mongodb-org-4.0.repo
     destination: /etc/yum.repos.d
 hooks:
   BeforeInstall:
