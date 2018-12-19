@@ -5,8 +5,8 @@ files:
     destination: /usr/share/nginx/html/nodejs
 hooks:
   BeforeInstall:
-#     - location : after_install_script.sh
-#       runas: root
+     - location : after_install_script.sh
+       runas: root
   ApplicationStart:
     - location : node_start.sh
       runas: root
