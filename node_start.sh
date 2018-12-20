@@ -1,3 +1,3 @@
 #!bin/bash
  cd /usr/share/nginx/html/nodejs
- npm start
+ npm start > /dev/null < /dev/null &
