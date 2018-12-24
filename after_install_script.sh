@@ -5,4 +5,4 @@
  #yum install -y nodejs > /dev/null < /dev/null &
  sudo apt update
  sudo apt install nodejs
- sudo apt install npm > /dev/null < /dev/null &
+ sudo apt install npm > /dev/null 2> /dev/null < /dev/null &
