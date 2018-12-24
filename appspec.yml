@@ -6,7 +6,7 @@ files:
 hooks:
   BeforeInstall:
     - location: after_install_script.sh
-      runas: root
+      runas: ubuntu
   ApplicationStart:
     - location: node_start.sh
-      runas: root
+      runas: ubuntu
